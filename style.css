@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#button{
+    font-size: 3rem;
+    padding: 15px 25px;
+    background: transparent;
+    color:white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+
+#button:active{
+    scale: 0.93;
+}
